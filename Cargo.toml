@@ -1,0 +1,12 @@
+[package]
+name = "net-binobj-cleaner"
+version = "0.1.0"
+edition = "2021"
+#repository = ""
+authors = ["Rustam Irzaiev"]
+readme = "README.md"
+license = "Apache-2.0"
+
+[dependencies]
+walkdir = "2.5.0"
+clap = { version = "4.5.7", features = ["derive"] }
