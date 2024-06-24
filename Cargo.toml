@@ -2,7 +2,7 @@
 name = "net-binobj-cleaner"
 version = "0.1.0"
 edition = "2021"
-#repository = ""
+repository = "https://github.com/RustamIrzaev/net-binobj-cleaner"
 authors = ["Rustam Irzaiev"]
 readme = "README.md"
 license = "Apache-2.0"
@@ -10,3 +10,4 @@ license = "Apache-2.0"
 [dependencies]
 walkdir = "2.5.0"
 clap = { version = "4.5.7", features = ["derive"] }
+colored = "2.1.0"
