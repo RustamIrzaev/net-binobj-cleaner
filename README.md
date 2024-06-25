@@ -43,12 +43,12 @@ cargo run -- -f /path/to/your/csharp/project
 
 ```markdown
 Project: MyProject
-/bin (3 files, 17 Kb):
+/bin (4 files, 17 Kb):
 - MyProject.dll
 - MyProject.deps.json
 - MyProject.pdb
 - MyProject.runtimeconfig.json
-/obj (24 files, 18 Kb):
+/obj (5 files, 18 Kb):
 - MyProject.AssemblyInfo.cs
 - MyProject.AssemblyInfoInputs.cache
 - MyProject.dll
