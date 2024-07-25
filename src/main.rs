@@ -82,8 +82,8 @@ fn main() {
             delete_folder(&bin_info.2);
             delete_folder(&obj_info.2);
         }
-        println!("Deleted bin and obj directories.");
+        println!("{}", "bin and obj directories were deleted.".bright_green());
     } else {
-        println!("Deletion cancelled.");
+        println!("{}", "Deletion cancelled.".bright_red());
     }
 }
