@@ -18,20 +18,17 @@ This is a command-line utility written in Rust for developers working on .NET pr
 
 ## Building the Project
 
-Clone the repository and build the project using Cargo:
+Clone the repository and build the project:
 
 ```bash
 git clone https://github.com/RustamIrzaev/net-binobj-cleaner
 cd net-binobj-cleaner
 cargo build --release
-```
 
-## Running the Application
+cd target/release
 
-To run the application, specify the directory to scan:
-
-```bash
-cargo run -- -f /path/to/your/csharp/project
+# Run the application
+./net-binobj-cleaner -f <FOLDER>
 ```
 
 ### Parameters
