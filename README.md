@@ -21,7 +21,7 @@ This is a command-line utility written in Rust for developers working on .NET pr
 Clone the repository and build the project:
 
 ```bash
-git clone https://github.com/RustamIrzaev/net-binobj-cleaner
+git clone https://github.com/RustamIrzaev/net-binobj-cleaner.git
 cd net-binobj-cleaner
 cargo build --release
 
